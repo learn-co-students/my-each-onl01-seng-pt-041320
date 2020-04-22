@@ -1,3 +1,11 @@
-def my_each # put argument(s) here
-  # code here
+def my_each(array)
+  queue = 0 
+  
+  while queue < array.length 
+  yield array[queue]
+    queue = queue + 1 
+    
+  
+  end
+  array
 end
