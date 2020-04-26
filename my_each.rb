@@ -8,7 +8,7 @@ def my_each(array)
     end
     my_each(array)
   else 
-    "No block given!"
+    array.collect
   end
 
 end
