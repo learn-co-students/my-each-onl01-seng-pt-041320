@@ -12,3 +12,21 @@ end
 
 
 
+#     while counter < self.size do
+#       yield(self[counter]) # pass argument to block and execute 
+#       counter += 1
+#     end
+#     self     # original array is returned 
+# end
+
+
+# def my_each(array)
+#     new_arr = []
+#     counter = 0
+#     while counter < self.length
+#       new_arr << (self[counter]) 
+#       if yield(self[counter]) == true
+#       counter += 1
+#     end
+#     new_arr
+#   end
